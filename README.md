@@ -39,7 +39,7 @@
 
 ### Model Architecture
 <div align="center">
-  <img src="https://github.com/nubahador/Vision_Transformers_Exhibit_Human_Like_Biases/blob/main/Figures/Fine-tuned_on_Lines_with_Varied_Angles_Lengths_Widths_and_Colors.png" alt="Architecture diagram of Fine-Tuned Model on Dataset IV" style="max-width: 90%; border: 1px solid #eee; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+  <img src="https://github.com/nbahador/Vision_Transformers_Exhibit_Human_Like_Biases/blob/main/Figures/Fine-tuned_on_Lines_with_Varied_Angles_Lengths_Widths_and_Colors.png" alt="Architecture diagram of Fine-Tuned Model on Dataset IV" style="max-width: 90%; border: 1px solid #eee; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
   <p style="font-size: 0.9em; color: #666;">Figure 2: Architecture of the model fine-tuned on Dataset IV (most complex variant)</p>
 </div>
 
