@@ -1,8 +1,8 @@
 ## Progressive Complexity in Synthetic Datasets
 
-| Dataset | Description | Sample Images & Labels |
+| Dataset | Description | Images & Labels |
 |---------|------------|------------------------|
-| **Dataset I** | White Lines with Varied Angles | [View Samples](https://huggingface.co/datasets/nubahador/LinePropsDataset/tree/main) |
+| **Dataset I** | White Lines with Varied Angles | [View Data](https://huggingface.co/datasets/nubahador/LinePropsDataset/tree/main) |
 | **Dataset II** | White Lines with Varied Angles, Lengths | |
 | **Dataset III** | White Lines with Varied Angles, Lengths, and Widths | |
 | **Dataset IV** | Lines with Varied Angles, Lengths, Widths, and Colors | |
