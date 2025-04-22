@@ -17,10 +17,10 @@ import json
 
 # Configuration
 print("Initializing configuration...")
-output_dir = r"Path_to_Model\white_lines_varying_angles_sizes_fine_tuned_model"
+output_dir = r"Path_to_Model\white_lines_varying_angles_lengths_fine_tuned_model"
 os.makedirs(output_dir, exist_ok=True)
 print(f"Output directory set to: {output_dir}")
-excel_path = os.path.join(r"Path_to_Labels\white_lines_varying_angles_sizes", "line_labels.xlsx")
+excel_path = os.path.join(r"Path_to_Labels\white_lines_varying_angles_lengths", "line_labels.xlsx")
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 print(f"Using device: {device}")
 max_samples = 50000
@@ -326,7 +326,7 @@ def calculate_errors(preds, targets):
 def main():
     print("\nStarting main training process...")
     print("Loading and splitting dataset...")
-    full_dataset = LineDataset(r"Path_to_Images\white_lines_varying_angles_sizes", excel_path)
+    full_dataset = LineDataset(r"Path_to_Images\white_lines_varying_angles_lengths", excel_path)
     train_data, val_data = train_test_split(full_dataset, test_size=0.2, random_state=42)
     train_loader = DataLoader(train_data, batch_size=32, shuffle=True)
     val_loader = DataLoader(val_data, batch_size=32)
